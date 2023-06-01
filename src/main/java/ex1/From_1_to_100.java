@@ -1,5 +1,6 @@
 package ex1;
 
+<<<<<<< HEAD
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -20,5 +21,18 @@ public class From_1_to_100 {
     }
     static void sort(int [] arr){
 
+=======
+public class From_1_to_100 {
+    public static void main(String[] args) {
+
+        for (int i=1; i<=50;i++){
+            if(i<=25){
+
+
+                System.out.println(i);
+            }
+
+        }
+>>>>>>> 30df159aebab8e25adb241884cef9277e5d0321f
     }
 }
