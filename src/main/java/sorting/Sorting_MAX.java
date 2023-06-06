@@ -4,8 +4,9 @@ import java.util.Arrays;
 
 public class Sorting_MAX {
     public static void main(String[] args) {
-        int[] data = {1, 5, 4, 63, 0, -5, 12, 28};
+        int[] data = {1, 2, 0, 3, 552, 0, -3, 2, 10, 9};
         System.out.println("before sorting: " + Arrays.toString(data));
+
         sortMax(data);
         System.out.println("after sorting: " + Arrays.toString(data));
     }
@@ -19,9 +20,9 @@ public class Sorting_MAX {
                     maxIndex = j;
                     max = data[j];
                 }
-                if (maxIndex != i) {
-                    swap(data, i, maxIndex);
-                }
+            }
+            if (maxIndex != i) {
+                swap(data, i, maxIndex);
             }
         }
     }
