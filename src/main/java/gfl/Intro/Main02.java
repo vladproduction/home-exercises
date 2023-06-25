@@ -21,5 +21,8 @@ public class Main02 {
         //(short) cut all left standing, so we have short (16 '111...1')
         //s  >>>= 1; //same expression as before , still does nothing
         System.out.println("s = (short) (s >>> 1); "+s); //-1
+
+        byte b=100, c=50;
+        byte d = (byte) (b+c); //explicit cast
     }
 }

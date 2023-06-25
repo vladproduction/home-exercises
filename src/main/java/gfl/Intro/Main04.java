@@ -11,5 +11,13 @@ public class Main04 {
         int k = 5;
         k = ++k + ++k; //like 'k = 6 + 7'
         System.out.println(k); //13 cause override 'k' every step to the new value
+
+        int t = 100, v;
+        v = 2* ++t;
+        System.out.println("v= "+v); //202 first change value and calculate
+
+        int u = 100, i;
+        i = 2* u++;
+        System.out.println("i= "+i + ";u = "+u); //200 first calculate and change value for next calculation
     }
 }
