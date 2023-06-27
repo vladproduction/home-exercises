@@ -4,9 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class MirrorPrimeNumbers_sb_revert {
+public class MirrorPrimeNumbers {
     public static void main(String[] args) {
-        MirrorPrimeNumbers_sb_revert primeNumbers = new MirrorPrimeNumbers_sb_revert();
+        MirrorPrimeNumbers primeNumbers = new MirrorPrimeNumbers();
         Scanner scanner = new Scanner(System.in);
         int a = scanner.nextInt();
         int b = scanner.nextInt();

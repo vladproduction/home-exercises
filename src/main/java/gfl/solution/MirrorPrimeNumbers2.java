@@ -4,14 +4,14 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class MirrorPrimeNumbers2_asNum_revert {
+public class MirrorPrimeNumbers2 {
 
     public static void main(String[] args) {
-        MirrorPrimeNumbers2_asNum_revert mirrorPrimeNumbers2revert = new MirrorPrimeNumbers2_asNum_revert();
+        MirrorPrimeNumbers2 mirror2 = new MirrorPrimeNumbers2();
         Scanner scanner = new Scanner(System.in);
         int a = scanner.nextInt();
         int b = scanner.nextInt();
-        List<Integer> num = mirrorPrimeNumbers2revert.findNumbers(a, b);
+        List<Integer> num = mirror2.findNumbers(a, b);
         System.out.println(num.size());
 
     }
