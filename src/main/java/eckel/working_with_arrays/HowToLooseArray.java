@@ -1,6 +1,6 @@
 package eckel.working_with_arrays;
 
-public class Main {
+public class HowToLooseArray {
     public static void main(String[] args) {
         int [] a, b;
         a = new int[10];

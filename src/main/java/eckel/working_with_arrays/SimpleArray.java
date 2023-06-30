@@ -11,6 +11,6 @@ public class SimpleArray {
             numOdd[i] = (2*i)+1;
             oddNumbers += numOdd[i] + " ";
         }
-        System.out.println(oddNumbers);
+        System.out.println(oddNumbers); //out [] of odd (not even) numbers
     }
 }
