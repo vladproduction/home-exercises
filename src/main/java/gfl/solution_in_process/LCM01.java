@@ -1,11 +1,11 @@
-package gfl.Algorithms.least_common_multiple;
+package gfl.solution_in_process;
 
 import java.util.Scanner;
 
-public class Main {
+public class LCM01 {
     public static void main(String[] args) {
-        Main main = new Main();
-        main.run();
+        LCM01 LCM01 = new LCM01();
+        LCM01.run();
     }
 
     private void run() {

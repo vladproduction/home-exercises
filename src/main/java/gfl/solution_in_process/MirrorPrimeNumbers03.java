@@ -1,14 +1,14 @@
-package gfl.solution;
+package gfl.solution_in_process;
 
 import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class MirrorPrimeNumbers3 {
+public class MirrorPrimeNumbers03 {
     public static void main(String[] args) {
-        MirrorPrimeNumbers3 mirrorPrimeNumbers3 = new MirrorPrimeNumbers3();
-        mirrorPrimeNumbers3.run();
+        MirrorPrimeNumbers03 mirrorPrimeNumbers03 = new MirrorPrimeNumbers03();
+        mirrorPrimeNumbers03.run();
     }
 
     private void run() {

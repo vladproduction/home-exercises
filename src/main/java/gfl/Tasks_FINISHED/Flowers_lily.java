@@ -1,4 +1,4 @@
-package gfl.solution;
+package gfl.Tasks_FINISHED;
 
 import java.util.Scanner;
 

@@ -1,8 +1,8 @@
-package gfl.solution;
+package gfl.solution_in_process;
 
-public class Toasts2 {
+public class Toasts02 {
     public static void main(String[] args) {
-        Toasts2 toasts = new Toasts2();
+        Toasts02 toasts = new Toasts02();
         toasts.doToasts(3, 2);
     }
 
@@ -27,7 +27,6 @@ public class Toasts2 {
 
 
         }
-
 
     }
 }

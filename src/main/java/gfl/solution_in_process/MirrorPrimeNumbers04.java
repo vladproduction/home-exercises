@@ -1,14 +1,14 @@
-package gfl.solution;
+package gfl.solution_in_process;
 
 import java.util.Scanner;
 
-public class MirrorPrimeNumbers4 {
+public class MirrorPrimeNumbers04 {
     public static void main(String[] args) {
-        MirrorPrimeNumbers4 mirrorPrimeNumbers4 = new MirrorPrimeNumbers4();
+        MirrorPrimeNumbers04 mirrorPrimeNumbers04 = new MirrorPrimeNumbers04();
         Scanner scanner = new Scanner(System.in);
         int a = scanner.nextInt();
         int b = scanner.nextInt();
-        int count = mirrorPrimeNumbers4.findNumbers(a,b);
+        int count = mirrorPrimeNumbers04.findNumbers(a,b);
         System.out.println(count);
     }
 

@@ -1,14 +1,14 @@
-package gfl.solution;
+package gfl.solution_in_process;
 
 import java.util.Scanner;
 
-public class Toasts {
+public class Toasts01 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int t = scanner.nextInt();
         int p = scanner.nextInt();
-        Toasts toasts = new Toasts();
-        toasts.run(t, p);
+        Toasts01 toasts01 = new Toasts01();
+        toasts01.run(t, p);
     }
 
     private void run(int t, int p) {

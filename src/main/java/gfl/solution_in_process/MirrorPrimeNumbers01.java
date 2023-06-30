@@ -1,12 +1,12 @@
-package gfl.solution;
+package gfl.solution_in_process;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class MirrorPrimeNumbers {
+public class MirrorPrimeNumbers01 {
     public static void main(String[] args) {
-        MirrorPrimeNumbers primeNumbers = new MirrorPrimeNumbers();
+        MirrorPrimeNumbers01 primeNumbers = new MirrorPrimeNumbers01();
         Scanner scanner = new Scanner(System.in);
         int a = scanner.nextInt();
         int b = scanner.nextInt();
