@@ -9,14 +9,14 @@ public class MoreArgsDemo {
     }
 
     public static void main(String[] args) {
-        MyClass2 obj = new MyClass2("Main Object");
+        MyClass2 obj = new MyClass2("Toasts01 Object");
         obj.show();
         //trying to change ref to the object
         changeRef(obj); //here it is
         obj.show(); //check the result:
 
-        /*  Объект с именем "Main Object".
+        /*  Объект с именем "Toasts01 Object".
             Объект с именем "Local Object".
-            Объект с именем "Main Object".*/
+            Объект с именем "Toasts01 Object".*/
     }
 }

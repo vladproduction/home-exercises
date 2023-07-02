@@ -5,10 +5,10 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
 
-public class PartialSumMatrix {
+public class PartialSumMatrix01 {
     public static void main(String[] args) throws IOException {
-        PartialSumMatrix partialSumMatrix = new PartialSumMatrix();
-        partialSumMatrix.run();
+        PartialSumMatrix01 partialSumMatrix01 = new PartialSumMatrix01();
+        partialSumMatrix01.run();
     }
 
     private void run() throws IOException {

@@ -4,9 +4,9 @@ import java.util.Queue;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
-        Main main = new Main();
-        main.run();
+    public static void toasts01(String[] args) {
+        Main toasts01 = new Main();
+        toasts01.run();
     }
 
     int[][] table;

@@ -2,11 +2,11 @@ package eolymp_tasks.Tasks_FINISHED;
 
 import java.util.Scanner;
 
-public class Flowers_lily {
+public class FlowersLily01 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
-        Flowers_lily flowers = new Flowers_lily();
+        FlowersLily01 flowers = new FlowersLily01();
         flowers.run(n);
     }
 

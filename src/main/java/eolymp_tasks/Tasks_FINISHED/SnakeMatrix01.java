@@ -2,11 +2,11 @@ package eolymp_tasks.Tasks_FINISHED;
 
 import java.util.Scanner;
 
-public class SnakeMatrix {
+public class SnakeMatrix01 {
     public static void main(String[] args) {
 
-        SnakeMatrix snakeMatrix = new SnakeMatrix();
-        snakeMatrix.run();
+        SnakeMatrix01 snakeMatrix01 = new SnakeMatrix01();
+        snakeMatrix01.run();
 
     }
 
